@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firework/firework.iml" filepath="$PROJECT_DIR$/firework/firework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fireworkProj.iml" filepath="$PROJECT_DIR$/fireworkProj.iml" />
+    </modules>
+  </component>
+</project>

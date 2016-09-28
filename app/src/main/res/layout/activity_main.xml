@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yang.firework.FireworkView
+        android:id="@+id/firework"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:texture="@drawable/particle_texture"
+        app:plistFile="@raw/snow"
+        app:backgroundImage="@drawable/background">
+
+    </com.yang.firework.FireworkView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
+
+        <Button
+            android:text="snow"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:id="@+id/snow"/>
+        <Button
+            android:text="raining"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:id="@+id/raining"/>
+        <Button
+            android:text="test"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:id="@+id/test"/>
+    </LinearLayout>
+
+</FrameLayout>
+
+
